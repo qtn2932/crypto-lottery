@@ -6,12 +6,14 @@ const NavBar = ()=>{
     return(
         <div>
             <img src={Logo}></img>
-            <button class="taskbar-button">Dashboard</button>
-            <button class="taskbar-button">Markets</button>
-            <button class="taskbar-button">Stake</button>
-            <button class="taskbar-button">Governance</button>
-            <button class="taskbar-button">More⋯</button>
-
+            <li>Dashboard</li>
+            <li>Markets</li>
+            <li>Stake</li>
+            <li>Governance</li>
+            <li>More⋯</li>
+            <li>Bridge GHO</li>
+            <li>Switch Tokens</li>
+            <li>Connect wallet</li>
         </div>
     )
 }
